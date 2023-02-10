@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa | Leaflet</title>
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="my-2 row">
+        <h1>Mapa con leaflet</h1>
+        <div class="col-6">
+            <select class="form-select" name="select-location" id="select-location">
+                <option value="">Selecione una opción</option>
+                <option value="10.2368502,-66.6653387">Santa Teresa del Tuy</option>
+                <option value="10.237948,-66.857995">Charallave</option>
+                <option value="10.161915,-66.889835">Cua</option>
+                <option value="10.116401,-66.775639">Ocumare</option>
+                <option value="10.178407,-66.746488">Yare</option>
+                <option value="10.303860,-66.659924">Santa Lucia</option>
+            </select>
+        </div>
+
+
+
+    </div>
+
+    <div id="map"></div>
+</div>
+
+<script src="js/leaflet.js"></script>
+<Script src="js/bootstrap.bundle.js"></Script>
+<script src="js/mapa.js"></script>
+</body>
+</html>
